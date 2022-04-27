@@ -3,6 +3,8 @@ function priceCalculate() {
   let selectObj = document.getElementById("event");
   let eventId = parseInt(selectObj.options[selectObj.selectedIndex].value);
   let totalprice = eventId * ticknum; 
+  
+  
   return totalprice;
 }
 
